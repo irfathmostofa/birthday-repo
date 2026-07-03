@@ -1,7 +1,9 @@
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import "./Timeline.css";
+import { useState } from "react";
 
 export default function Timeline({ entries }) {
+  const [active, setActive] = useState(null);
   return (
     <section className="timeline-section">
       <motion.p
@@ -29,7 +31,11 @@ export default function Timeline({ entries }) {
             <div className="timeline-card">
               <div className="timeline-photo">
                 {entry.image ? (
-                  <img src={entry.image} alt={entry.caption} />
+                  <img
+                    src={entry.image}
+                    alt={entry.caption}
+                    onClick={() => entry.image && setActive(entry)}
+                  />
                 ) : (
                   <span className="timeline-placeholder">✧</span>
                 )}
@@ -40,6 +46,29 @@ export default function Timeline({ entries }) {
           </motion.div>
         ))}
       </div>
+      <AnimatePresence>
+        {active && (
+          <motion.div
+            className="lightbox"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setActive(null)}
+          >
+            <motion.img
+              src={active.image}
+              alt={active.caption || ""}
+              initial={{ scale: 0.92, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.95, opacity: 0 }}
+              transition={{ duration: 0.3 }}
+            />
+            {active.caption && (
+              <p className="lightbox-caption">{active.caption}</p>
+            )}
+          </motion.div>
+        )}
+      </AnimatePresence>
     </section>
   );
 }
