@@ -35,8 +35,8 @@ export default function LockedTeaser({ time, memoryCount, name }) {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, delay: 0.35 }}
       >
-        something is waiting for you here — {memoryCount} memories and a letter,
-        sealed until your day arrives.
+        something is waiting for you here — Some memories and a letter, sealed
+        until your day arrives.
       </motion.p>
 
       <motion.div
@@ -47,7 +47,9 @@ export default function LockedTeaser({ time, memoryCount, name }) {
       >
         {units.map((u) => (
           <div className="locked-unit" key={u.label}>
-            <span className="locked-number">{String(u.value).padStart(2, "0")}</span>
+            <span className="locked-number">
+              {String(u.value).padStart(2, "0")}
+            </span>
             <span className="locked-label">{u.label}</span>
           </div>
         ))}
