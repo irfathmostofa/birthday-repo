@@ -32,7 +32,9 @@
   box-shadow:
     0 20px 60px rgba(0, 0, 0, 0.45),
     0 2px 0 rgba(255, 255, 255, 0.08) inset;
-  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease;
 }
 
 .envelope:hover .envelope-body {
@@ -59,7 +61,7 @@
 
 .envelope-letter {
   position: absolute;
-  left: 50%;
+  left: 12%;
   top: 14%;
   width: 78%;
   height: 70%;
