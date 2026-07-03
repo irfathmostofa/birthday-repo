@@ -1,0 +1,65 @@
+:root {
+  --wine-950: #260810;
+  --wine-900: #3a0f1e;
+  --wine-800: #4a1428;
+  --gold: #c9a24b;
+  --gold-soft: #e3c98a;
+  --gold-dim: #8a7038;
+  --ivory: #f6ecdf;
+  --blush: #e7c3c0;
+  --ink: #170408;
+
+  --font-display: "Cormorant Garamond", serif;
+  --font-script: "Tangerine", cursive;
+  --font-body: "EB Garamond", serif;
+
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--wine-950);
+  color: var(--ivory);
+  font-family: var(--font-body);
+  scroll-behavior: smooth;
+}
+
+#root {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::selection {
+  background: var(--gold-soft);
+  color: var(--ink);
+}
+
+button {
+  font-family: inherit;
+}
+
+a {
+  color: var(--gold-soft);
+}
+
+:focus-visible {
+  outline: 2px solid var(--gold-soft);
+  outline-offset: 3px;
+}
