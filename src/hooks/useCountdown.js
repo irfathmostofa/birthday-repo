@@ -7,7 +7,7 @@ function getRemaining(targetDate) {
     now.toLocaleString("en-US", { timeZone: "Asia/Dhaka" }),
   );
 
-  // Parse target date and ensure it's in Asia/Dhaka timezone
+  // Parse target date - ensure it's treated as Asia/Dhaka time
   const target = new Date(targetDate);
   const dhakaTarget = new Date(
     target.toLocaleString("en-US", { timeZone: "Asia/Dhaka" }),
