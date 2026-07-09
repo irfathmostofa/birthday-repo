@@ -23,7 +23,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .gallery-cell:hover {
@@ -46,7 +48,7 @@
 .lightbox {
   position: fixed;
   inset: 0;
-  z-index: 20;
+  z-index: 99999;
   background: rgba(10, 2, 5, 0.9);
   display: flex;
   flex-direction: column;
@@ -68,5 +70,5 @@
   font-family: var(--font-display);
   font-style: italic;
   color: var(--blush);
-  font-size: 1.1rem;
+  font-size: 1.5rem;
 }

@@ -45,13 +45,33 @@ export const HER_NAME = "Mahmoda"; // shown on the envelope + throughout
 // Before this moment, she'll only see a locked teaser screen with a
 // countdown — the memories, gallery, and letter stay hidden until then.
 // Format: "YYYY-MM-DDTHH:MM:SS"
-export const TARGET_DATE = "2026-07-12 00:00:00";
+export const TARGET_DATE = "2026-07-8 00:00:00";
 
-export const MESSAGE = `Wishing a very Happy Birthday to the most amazing person in my life!
-I hope this new year of your life brings you endless success, peace, and happiness.
-Thank you for being such an incredible person in my life. Enjoy your special day!`;
+// export const MESSAGE = `Wishing a very Happy Birthday to the most amazing person in my life!
+// I hope this new year of your life brings you endless success, peace, and happiness.
+// Thank you for being such an incredible person in my life. Enjoy your special day!`;
+export const MESSAGE = `To my favorite person, my safe space, my greatest blessing —
 
-export const SIGNATURE = "— someone who's grateful for you";
+HAPPY BIRTHDAY!
+
+I've been thinking about what to say to make today feel as special as you are, but words will never be enough to express what you mean to me. You walked into my life and painted it with colors I didn't know existed.
+
+Every birthday you've had before today was a countdown to the moment you'd become part of my story. And now that you're here, I never want to miss a single one.
+
+I wish for you today:
+Mornings that make you smile
+Evenings that bring you peace
+Nights that wrap you in warmth
+
+But most of all, I wish for you to know — you are enough. More than enough. You are everything.
+
+Enjoy your day, celebrate yourself, and know that somewhere out there, someone is celebrating you with their whole heart.
+
+Happy Birthday`;
+
+export const SIGNATURE = `Eternally grateful,
+— The luckiest person to have you `;
+// export const SIGNATURE = "— someone who's grateful for you";
 
 // Timeline of memories, in chronological order. Add, remove, or edit as
 // many as you like — the layout handles any number gracefully.
