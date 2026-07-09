@@ -122,7 +122,7 @@ export const TIMELINE = [
   {
     date: "February 21, 2025",
     caption:
-      "Our first visit to Chittagong University, creating memories in a place we'll never forget.",
+      "Your first visit to Chittagong University, creating memories in a place we'll never forget.",
     image: image38,
   },
 
@@ -227,7 +227,7 @@ export const TIMELINE = [
   {
     date: "January 31, 2026",
     caption:
-      "Our second visit to Chittagong University, making even more unforgettable memories.",
+      "Your second visit to Chittagong University, making even more unforgettable memories.",
     image: image21,
   },
 
@@ -283,7 +283,7 @@ export const TIMELINE = [
 export const GALLERY = [
   {
     image: image30,
-    caption: "Caught secretly taking photos of me.",
+    caption: "Taking aesthetic photos of me.",
   },
   {
     image: image37,
@@ -291,8 +291,7 @@ export const GALLERY = [
   },
   {
     image: image9,
-    caption:
-      "Just sitting on the floor, making an ordinary moment unforgettable.",
+    caption: "Posing like the queen you truly are.",
   },
   {
     image: image11,
@@ -301,7 +300,8 @@ export const GALLERY = [
   },
   {
     image: image12,
-    caption: "Posing like the queen you truly are.",
+    caption:
+      " Just sitting on the floor, making an ordinary moment unforgettable.",
   },
   {
     image: image34,
