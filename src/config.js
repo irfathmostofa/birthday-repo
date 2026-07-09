@@ -45,7 +45,7 @@ export const HER_NAME = "Mahmoda"; // shown on the envelope + throughout
 // Before this moment, she'll only see a locked teaser screen with a
 // countdown — the memories, gallery, and letter stay hidden until then.
 // Format: "YYYY-MM-DDTHH:MM:SS"
-export const TARGET_DATE = "2026-07-8 00:00:00";
+export const TARGET_DATE = "2026-07-12 00:00:00";
 
 // export const MESSAGE = `Wishing a very Happy Birthday to the most amazing person in my life!
 // I hope this new year of your life brings you endless success, peace, and happiness.
