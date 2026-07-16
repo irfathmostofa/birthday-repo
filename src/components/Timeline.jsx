@@ -4,6 +4,16 @@ import { useState } from "react";
 
 export default function Timeline({ entries }) {
   const [active, setActive] = useState(null);
+
+  // Helper function to get image source
+  const getImageSrc = (image) => {
+    if (!image) return null;
+    // If it's a string (URL), use it directly
+    if (typeof image === "string") return image;
+    // If it's an imported image object, use it
+    return image;
+  };
+
   return (
     <section className="timeline-section">
       <motion.p
@@ -32,9 +42,18 @@ export default function Timeline({ entries }) {
               <div className="timeline-photo">
                 {entry.image ? (
                   <img
-                    src={entry.image}
-                    alt={entry.caption}
+                    src={getImageSrc(entry.image)}
+                    alt={entry.caption || "Memory"}
                     onClick={() => entry.image && setActive(entry)}
+                    loading="lazy"
+                    onError={(e) => {
+                      // Show placeholder on error
+                      e.target.style.display = "none";
+                      const placeholder = document.createElement("span");
+                      placeholder.className = "timeline-placeholder";
+                      placeholder.textContent = "✧";
+                      e.target.parentElement.appendChild(placeholder);
+                    }}
                   />
                 ) : (
                   <span className="timeline-placeholder">✧</span>
@@ -46,6 +65,7 @@ export default function Timeline({ entries }) {
           </motion.div>
         ))}
       </div>
+
       <AnimatePresence>
         {active && (
           <motion.div
@@ -56,12 +76,16 @@ export default function Timeline({ entries }) {
             onClick={() => setActive(null)}
           >
             <motion.img
-              src={active.image}
+              src={getImageSrc(active.image)}
               alt={active.caption || ""}
               initial={{ scale: 0.92, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0.95, opacity: 0 }}
               transition={{ duration: 0.3 }}
+              onError={(e) => {
+                // You could show a fallback message
+                console.log("Image failed to load:", active.image);
+              }}
             />
             {active.caption && (
               <p className="lightbox-caption">{active.caption}</p>

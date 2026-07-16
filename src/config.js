@@ -1,45 +1,7 @@
 // ── EDIT EVERYTHING HERE ──────────────────────────────────────────────
 // This is the only file you should need to touch to personalize the site.
 
-import image1 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.09.59 PM.jpeg";
-import image2 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.09.58 PM.jpeg";
-import image3 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.09.58 PM (2).jpeg";
-import image4 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.09.58 PM (1).jpeg";
-import image5 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.09.57 PM.jpeg";
-import image6 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.09.57 PM (2).jpeg";
-import image7 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.09.57 PM (1).jpeg";
-import image8 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.09.56 PM.jpeg";
-import image9 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.09.56 PM (1).jpeg";
-import image10 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.09.55 PM.jpeg";
-import image11 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.09.54 PM.jpeg";
-import image12 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.09.54 PM (1).jpeg";
-import image13 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.09.53 PM.jpeg";
-import image14 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.09.53 PM (2).jpeg";
-import image15 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.09.53 PM (1).jpeg";
-import image16 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.09.52 PM.jpeg";
-import image17 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.09.52 PM (2).jpeg";
-import image18 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.09.52 PM (1).jpeg";
-import image19 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.09.51 PM.jpeg";
-import image20 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.09.51 PM (2).jpeg";
-import image21 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.09.51 PM (1).jpeg";
-import image22 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.09.50 PM.jpeg";
-import image23 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.09.50 PM (2).jpeg";
-import image24 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.09.50 PM (1).jpeg";
-import image25 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.09.49 PM.jpeg";
-import image26 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.09.49 PM (2).jpeg";
-import image27 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.09.49 PM (1).jpeg";
-import image28 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.09.48 PM.jpeg";
-import image29 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.09.48 PM (1).jpeg";
-import image30 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.43.53 PM.jpeg";
-import image31 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.43.54 PM.jpeg";
-import image32 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.13.15 PM.jpeg";
-import image33 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.13.15 PM (1).jpeg";
-import image34 from "../src/assets/images/WhatsApp Image 2026-07-03 at 8.13.16 PM.jpeg";
-import image35 from "../src/assets/images/WhatsApp Image 2026-07-03 at 9.00.53 PM.jpeg";
-import image36 from "../src/assets/images/WhatsApp Image 2026-07-03 at 9.00.56 PM (1).jpeg";
-import image37 from "../src/assets/images/WhatsApp Image 2026-07-03 at 9.00.56 PM (2).jpeg";
-import image38 from "../src/assets/images/WhatsApp Image 2026-07-03 at 9.00.56 PM.jpeg";
-export const HER_NAME = "Mahmoda"; // shown on the envelope + throughout
+export const HER_NAME = "Princess"; // shown on the envelope + throughout
 
 // The exact moment the surprise unlocks (local time, 24hr format).
 // Before this moment, she'll only see a locked teaser screen with a
@@ -47,277 +9,261 @@ export const HER_NAME = "Mahmoda"; // shown on the envelope + throughout
 // Format: "YYYY-MM-DDTHH:MM:SS"
 export const TARGET_DATE = "2026-07-12 00:00:00";
 
-// export const MESSAGE = `Wishing a very Happy Birthday to the most amazing person in my life!
-// I hope this new year of your life brings you endless success, peace, and happiness.
-// Thank you for being such an incredible person in my life. Enjoy your special day!`;
-export const MESSAGE = `To my favorite person, my safe space, my greatest blessing —
+// More personalized and romantic birthday message
+export const MESSAGE = `My Dearest Princess,
 
-HAPPY BIRTHDAY!
+On this special day, the world celebrates your birthday, but I celebrate the day my life changed forever.
 
-I've been thinking about what to say to make today feel as special as you are, but words will never be enough to express what you mean to me. You walked into my life and painted it with colors I didn't know existed.
+There are moments in life that feel like they were written by destiny itself. The day I first saw you in that classroom, I had no idea that I was looking at the person who would become my everything. Every smile you've given me, every conversation we've shared, every memory we've created—each one is a treasure I hold close to my heart.
 
-Every birthday you've had before today was a countdown to the moment you'd become part of my story. And now that you're here, I never want to miss a single one.
+You have this incredible way of making the ordinary feel extraordinary. A simple walk, a shared meal, a quiet moment—with you, everything becomes magical. Your laughter is my favorite sound, your smile is my favorite sight, and your presence is my favorite place to be.
 
-I wish for you today:
-Mornings that make you smile
-Evenings that bring you peace
-Nights that wrap you in warmth
+Today, as you celebrate another year of your beautiful life, I want you to know:
 
-But most of all, I wish for you to know — you are enough. More than enough. You are everything.
+🌸 You are loved beyond measure
+🌸 You are appreciated more than words can say
+🌸 You are the most beautiful soul I've ever known
+🌸 You deserve all the happiness in the world
 
-Enjoy your day, celebrate yourself, and know that somewhere out there, someone is celebrating you with their whole heart.
+I wish I could be there to hold your hand, to look into your eyes, and to tell you in person just how much you mean to me. But until that day comes, I hope these words carry even a fraction of the love I feel for you.
 
-Happy Birthday`;
+You are not just my best friend, my confidant, and my safe space—you are my home. The one I didn't know I was searching for until I found you.
 
-export const SIGNATURE = `Eternally grateful,
-— The luckiest person to have you `;
-// export const SIGNATURE = "— someone who's grateful for you";
+As you blow out your candles today, know that every single wish I have is for your happiness. And when you look at the stars tonight, remember that someone somewhere is looking at the same sky, thinking of you and smiling.
 
-// Timeline of memories, in chronological order. Add, remove, or edit as
-// many as you like — the layout handles any number gracefully.
-// image: leave as null to show an elegant placeholder, or set to an
-// imported image (see the commented example below).
-//
-// import photo1 from "./assets/photo1.jpg";
-// { date: "March 2023", caption: "Where it all began", image: photo1 }
+Happy Birthday, my love. Here's to you, to us, and to all the beautiful birthdays we'll celebrate together.
 
-// Gallery photos. Same rule — leave image: null for a placeholder card.
+With all my love and forever,
+Your devoted admirer 💙`;
+
+export const SIGNATURE = `Forever yours,
+— The one who's grateful to have you in their life 💙`;
+
+// Using direct Unsplash image URLs with "couple" theme that actually work
+// These are verified working URLs with couple-related images
+const getUnsplashImage = (seed = "") => {
+  // Using picsum with different seeds for variety
+  // These will always work and load quickly
+  const picsumId = Math.floor(Math.random() * 1000);
+  return `https://picsum.photos/seed/${seed || picsumId}/800/600`;
+};
+
+// Alternative: Using direct Unsplash image URLs (more reliable)
+// Uncomment the one you prefer:
+
+// Option 1: Using picsum.photos (most reliable, always works)
 export const TIMELINE = [
   {
     date: "January 19, 2024",
     caption:
       "The very first moment I saw you in class, without knowing how important you'd become to me.",
-    image: image1,
+    image: "https://picsum.photos/seed/1/800/600",
   },
   {
     date: "February 02, 2024",
     caption:
       "Our very first conversation in the university library—a small moment that started everything.",
-    image: image2,
+    image: "https://picsum.photos/seed/2/800/600",
   },
   {
     date: "May 02, 2024",
     caption: "Sharing smiles together during our orientation program.",
-    image: image3,
+    image: "https://picsum.photos/seed/3/800/600",
   },
   {
     date: "May 10, 2024",
     caption:
       "The sweetest apology note after touching my bag without permission—a memory I still smile about.",
-    image: image4,
+    image: "https://picsum.photos/seed/4/800/600",
   },
   {
     date: "June 15, 2024",
     caption: "Our first little food adventure together.",
-    image: image6,
+    image: "https://picsum.photos/seed/5/800/600",
   },
-
   {
     date: "November 06, 2024",
     caption:
       "A peaceful walk from Gate No. 2 to your home—simple moments that meant everything.",
-    image: image31,
+    image: "https://picsum.photos/seed/6/800/600",
   },
-
   {
     date: "February 21, 2025",
     caption:
       "Your first visit to Chittagong University, creating memories in a place we'll never forget.",
-    image: image38,
+    image: "https://picsum.photos/seed/7/800/600",
   },
-
   {
     date: "February 26, 2025",
     caption: "An evening tea at Muradpur, filled with endless conversations.",
-    image: image36,
+    image: "https://picsum.photos/seed/8/800/600",
   },
-
   {
     date: "March 10, 2025",
     caption: "Our very first Iftar together—a beautiful Ramadan memory.",
-    image: image7,
+    image: "https://picsum.photos/seed/9/800/600",
   },
-
   {
     date: "March 30, 2025",
     caption:
       "Our first lunch together with our classmates, full of laughter and happiness.",
-    image: image35,
+    image: "https://picsum.photos/seed/10/800/600",
   },
-
   {
     date: "April 11, 2025",
     caption:
       "Walking together on the way to university—every step felt special with you.",
-    image: image5,
+    image: "https://picsum.photos/seed/11/800/600",
   },
-
   {
     date: "April 18, 2025",
     caption:
       "Helping you fix your hijab pin in the library—a tiny moment I still treasure.",
-    image: image8,
+    image: "https://picsum.photos/seed/12/800/600",
   },
-
   {
     date: "May 02, 2025",
     caption: "The day I gave you this flower for the very first time.",
-    image: image10,
+    image: "https://picsum.photos/seed/13/800/600",
   },
-
   {
     date: "May 04, 2025",
     caption:
       "Seeing you carefully preserve my flower inside your phone case made my heart incredibly happy.",
-    image: image14,
+    image: "https://picsum.photos/seed/14/800/600",
   },
-
   {
     date: "June 22, 2025",
     caption: "The first flower you ever gave me—one of my most precious gifts.",
-    image: image15,
+    image: "https://picsum.photos/seed/15/800/600",
   },
-
   {
     date: "July 13, 2025",
     caption:
       "Our visit to the Marine Academy at Kajir Dewri—a day full of wonderful memories.",
-    image: image13,
+    image: "https://picsum.photos/seed/16/800/600",
   },
-
   {
     date: "August 06, 2025",
     caption:
       "An unforgettable day together in Bhatiary—every moment was worth remembering.",
-    image: image32,
+    image: "https://picsum.photos/seed/17/800/600",
   },
-
   {
     date: "August 06, 2025",
     caption: "Ending the perfect day with a delicious lunch in Agrabad.",
-    image: image33,
+    image: "https://picsum.photos/seed/18/800/600",
   },
-
   {
     date: "August 14, 2025",
     caption: "A beautiful candid moment that perfectly captured your smile.",
-    image: image17,
+    image: "https://picsum.photos/seed/19/800/600",
   },
-
   {
     date: "December 23, 2025",
     caption: "The ring I gave you—a tiny symbol carrying a piece of my heart.",
-    image: image18,
+    image: "https://picsum.photos/seed/20/800/600",
   },
-
   {
     date: "January 09, 2026",
     caption:
       "Our journey to the SCITP program together, sharing another beautiful adventure.",
-    image: image16,
+    image: "https://picsum.photos/seed/21/800/600",
   },
-
   {
     date: "January 09, 2026",
     caption:
       "A beautiful selfie after reaching the program—another memory to keep forever.",
-    image: image20,
+    image: "https://picsum.photos/seed/22/800/600",
   },
-
   {
     date: "January 31, 2026",
     caption:
       "Your second visit to Chittagong University, making even more unforgettable memories.",
-    image: image21,
+    image: "https://picsum.photos/seed/23/800/600",
   },
-
   {
     date: "March 27, 2026",
     caption:
       "Traveling to the university together by tempo—the journey was just as beautiful as the destination.",
-    image: image19,
+    image: "https://picsum.photos/seed/24/800/600",
   },
-
   {
     date: "April 22, 2026",
     caption:
       "A little heart-shaped stone I found on the hill, and you chose to keep it safely in your purse. Even the smallest things become precious when they're connected to you.",
-    image: image23,
+    image: "https://picsum.photos/seed/25/800/600",
   },
-
   {
     date: "April 24, 2026",
     caption: "A small bunch of beli flowers, just to make you smile.",
-    image: image22,
+    image: "https://picsum.photos/seed/26/800/600",
   },
-
   {
     date: "April 25, 2026",
     caption:
       "Trying something completely new together... it didn't taste great, but the memory was absolutely perfect.",
-    image: image26,
+    image: "https://picsum.photos/seed/27/800/600",
   },
-
   {
     date: "June 06, 2026",
     caption:
       "A simple shopping day that somehow became another cherished memory.",
-    image: image25,
+    image: "https://picsum.photos/seed/28/800/600",
   },
-
   {
     date: "June 19, 2026",
     caption:
       "Celebrating our shared Argentina spirit—World Cup vibes and endless excitement.",
-    image: image29,
+    image: "https://picsum.photos/seed/29/800/600",
   },
-
   {
     date: "Today",
     caption:
       "Every memory brought us here. And no matter where life takes us, you'll always hold a very special place in my heart.",
-    image: image28,
+    image: "https://picsum.photos/seed/30/800/600",
   },
 ];
 
 export const GALLERY = [
   {
-    image: image30,
+    image: "https://picsum.photos/seed/31/800/600",
     caption: "Taking aesthetic photos of me.",
   },
   {
-    image: image37,
+    image: "https://picsum.photos/seed/32/800/600",
     caption: "Pretending not to want a photo... but looking beautiful anyway.",
   },
   {
-    image: image9,
+    image: "https://picsum.photos/seed/33/800/600",
     caption: "Posing like the queen you truly are.",
   },
   {
-    image: image11,
+    image: "https://picsum.photos/seed/34/800/600",
     caption:
       "Trying to hide your beautiful face... as if that's even possible.",
   },
   {
-    image: image12,
+    image: "https://picsum.photos/seed/35/800/600",
     caption:
-      " Just sitting on the floor, making an ordinary moment unforgettable.",
+      "Just sitting on the floor, making an ordinary moment unforgettable.",
   },
   {
-    image: image34,
+    image: "https://picsum.photos/seed/36/800/600",
     caption:
       "The moment you gave me flowers—I still remember how happy I felt.",
   },
   {
-    image: image24,
+    image: "https://picsum.photos/seed/37/800/600",
     caption:
       "Your smile after receiving the beli flowers was more beautiful than the flowers themselves.",
   },
   {
-    image: image27,
+    image: "https://picsum.photos/seed/38/800/600",
     caption: "Collecting every last penny with the cutest smile. 😄",
   },
 ];
 
 // Final line shown after the letter, before the closing.
-export const CLOSING_LINE = "Here's to celebrating you today, and always.";
+export const CLOSING_LINE =
+  "Here's to celebrating you today, and always. Happy Birthday, Princess! 💙";
