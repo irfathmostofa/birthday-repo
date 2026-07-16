@@ -81,7 +81,7 @@ export default function Ambience() {
 
   return (
     <div className="ambience" aria-hidden="true">
-      <div className="falling-memories">
+      {/* <div className="falling-memories">
         {fallingPhotos.map((photo) => (
           <img
             key={photo.id}
@@ -98,7 +98,7 @@ export default function Ambience() {
             }}
           />
         ))}
-      </div>
+      </div> */}
       {motes.map((m) => (
         <span
           key={m.id}
