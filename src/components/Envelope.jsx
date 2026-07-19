@@ -57,8 +57,8 @@ export default function Envelope({ name, onOpen }) {
                     textAlign: "center",
                   }}
                 >
-                  {name}, you are the most important person in my life — today
-                  and every day.
+                  {name}, তুমি ছাড়া আমার দিনগুলো অসম্পূর্ণ থেকে যেত — আজও,
+                  সবসময়ও।
                 </span>
               </span>
             </motion.span>
@@ -75,7 +75,7 @@ export default function Envelope({ name, onOpen }) {
             )}
           </span>
         </button>
-        {!opening && <p className="envelope-hint">tap the seal to open</p>}
+        {!opening && <p className="envelope-hint">সিলে চাপ দিয়ে খুলে দেখো</p>}
       </motion.div>
     </div>
   );

@@ -23,7 +23,7 @@ export default function Timeline({ entries }) {
         viewport={{ once: true, amount: 0.6 }}
         transition={{ duration: 0.7 }}
       >
-        moments worth remembering
+        মনে রাখার মতো মুহূর্তগুলো
       </motion.p>
 
       <div className="timeline-track">

@@ -18,7 +18,7 @@ export default function Countdown({ time }) {
         viewport={{ once: true, amount: 0.6 }}
         transition={{ duration: 0.7 }}
       >
-        the day is finally here
+        অবশেষে সেই দিনটা চলে এলো
       </motion.p>
 
       <motion.h2
@@ -28,7 +28,7 @@ export default function Countdown({ time }) {
         viewport={{ once: true }}
         transition={{ duration: 0.8 }}
       >
-        Happy Birthday
+        শুভ জন্মদিন
       </motion.h2>
     </section>
   );
