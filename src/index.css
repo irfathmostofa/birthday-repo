@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@0;1&family=Baloo+Da+2:wght@500;700&family=Hind+Siliguri:wght@400;500;600&display=swap");
+
 :root {
   --wine-950: #260810;
   --wine-900: #3a0f1e;
@@ -9,9 +11,9 @@
   --blush: #e7c3c0;
   --ink: #170408;
 
-  --font-display: "Cormorant Garamond", serif;
-  --font-script: "Tangerine", cursive;
-  --font-body: "EB Garamond", serif;
+  --font-display: "Tiro Bangla", "Cormorant Garamond", serif;
+  --font-script: "Baloo Da 2", "Tangerine", cursive;
+  --font-body: "Hind Siliguri", "EB Garamond", serif;
 
   color-scheme: dark;
 }
